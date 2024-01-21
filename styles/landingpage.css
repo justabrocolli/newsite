@@ -1,0 +1,178 @@
+.greenbackground{
+  display: inline-block;
+  position: absolute;
+  background-color: rgb(68, 154, 68);
+  height: 100%;
+  width: 45%;
+  top:0;
+  bottom: 0;
+  right: 0;  
+}
+/*Landing Page Screen text and buttons*/
+.log-in-form{
+  scale: 1.5;
+  height: 300px;
+  width: 380px;
+  position: relative;
+  top: 30%;
+  left: 20%;
+}
+.title{
+  font-family: Arial;
+  text-align: center;
+  color: white;
+  font-weight: 400;
+  font-size: 32px;
+  margin-bottom: -85px;
+}
+
+.title2{
+  font-family: Arial;
+  text-align: center;
+  color: white;
+  font-weight: bold;
+  font-size: 72px;
+}
+
+.find-button{
+  font-family: Arial;
+  vertical-align: top;
+  background-color: rgb(235, 72, 72);
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 10px;
+  margin-right: 10px;
+  position: relative;
+    bottom: 15%;
+    left: 22%;
+  cursor: pointer;
+  transition: background-color 0.1s, box-shadow 0.15s;
+}
+.find-button:hover{
+  box-shadow: 0 0 5px black;
+}
+.find-button:active{
+  background-color: rgb(180, 57, 57);
+}
+
+.sigh-up-button{
+  font-family: Arial;
+  vertical-align: top;
+  background-color: white;
+  color: black;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 10px;
+  position: relative;
+    bottom: 15%;
+    left: 22%;
+    cursor: pointer;
+  transition: box-shadow 0.15s, opacity 0.15s;
+}
+.sigh-up-button:hover{
+  box-shadow: 0 0 5px black;
+}
+.sigh-up-button:active{
+  opacity: 0.8;
+}
+
+
+.text{
+  font-family: Arial;
+  text-align: center;
+  color: rgba(241, 241, 241, 0.77);
+  margin-top: 100px;
+  position: relative;
+  bottom: 40%;
+  left: 18%;
+  font-size: 13px;
+  width: 255px;
+}
+
+/*Left Side of the screen Imgs*/
+.imageholder{
+  scale: 1.4;
+  padding-right: 5%;
+  z-index: -1;
+  height: 300px;
+  width: 200px;
+  display: inline-block;
+  position: relative;
+  left: 2%;
+  top: 180px;
+}
+
+/*sign up pop up */
+.sign-up-form{
+  z-index: 1;
+  scale: 1.2;
+  font-family: Arial;
+  font-weight: bold;
+  border-radius: 25px;
+  background-color:rgb(237, 227, 149);
+  height: 280px;
+  width: 300px;
+  padding-bottom: 50px;
+  padding-right: 20px;
+  transform: translate(-50%, -50%) scale(0.1);
+  text-align: right;
+  position: absolute;
+  bottom: 0%;
+  left: 60%;
+  visibility: hidden;
+  transition: transform 0.4s, top 0.4s;
+}
+.form-opened{
+  visibility: visible;
+  top: 50%;
+  transform: translate(-50%, -50%) scale(1);
+
+}
+.closeSignup{
+  display: inline;
+  cursor: pointer;
+  position: relative;
+  top: 3%;
+  right: 88%;
+}
+.closeSignup:hover{
+  color: white;
+}
+.singup-username-input{
+  border-radius: 25px;
+  text-align: right;
+  border: none;
+  width: 275px;
+}
+.singup-password-input{
+  border-radius: 25px;
+  text-align: right;
+  border: none;
+  width: 275px;
+}
+.signup-email-input{
+  border-radius: 25px;
+  text-align: right;
+  border: none;
+  width: 275px;
+}
+.sign-up-botton{
+  background-color: rgb(242, 62, 62);
+  color: white;
+  border: none;
+  padding: 10px 120px;
+  margin-top: 15px;
+  border-radius: 25px;
+  position: relative;
+  top: 5%;
+  right: 1%;
+  cursor: pointer;
+  transition:opacity 0.15s;
+}
+button.sign-up-botton:hover{
+  opacity: 0.8;
+}
+button.sign-up-botton:active{
+  opacity: 0.6;
+}
