@@ -51,10 +51,12 @@
 }
 .find-button:hover{
   box-shadow: 0 0 5px black;
+
 }
 .find-button:active{
   background-color: rgb(180, 57, 57);
 }
+
 
 .sigh-up-button{
   font-family: Arial;
@@ -175,4 +177,8 @@ button.sign-up-botton:hover{
 }
 button.sign-up-botton:active{
   opacity: 0.6;
+}
+
+a{
+  text-decoration: none;
 }

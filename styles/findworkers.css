@@ -1,0 +1,123 @@
+.top{
+  padding-top: 100px;
+  padding-bottom: 100px;
+  background-color: rgb(68, 121, 154);
+  text-align: center;
+}
+.serch_job_input{
+  width: 400px;
+  height: 50px;
+  border-radius: 25px;
+  border: none;
+  text-align: right;
+}
+.serch_job_input::placeholder{
+  padding-right: 20px;
+}
+.serch_job_button{
+  padding: 15px 20px;
+  border: none;
+  border-radius: 20px;
+  background-color: rgb(235, 72, 72);
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+}
+.grid{
+  margin-top: 20px;
+  text-align: center;
+  display: grid;
+  grid-template-columns: 1fr 800px 1fr;
+  grid-template-rows: 500px 200px;
+}
+
+.workers_list_title{
+  padding-top: 10px;
+  text-align: center;
+  font-weight: bold;
+  font-size: 48px;
+  font-family: Arial;
+}
+.worker_profile{
+  margin-top: 20px;
+  background-color: rgb(212, 212, 212);
+  height: 150px;
+  display: grid;
+  grid-template-columns: 20% 20% 60%;
+  cursor: pointer;
+  border: 2px solid #000000;
+  
+}
+.worker_profile_pic{
+  margin-left: 10px;
+  background-color: white;
+  border-radius: 50%;
+  width: 150px;
+}
+.worker_profile_stars{
+  color: rgb(0, 0, 0);
+  font-size: 40px;
+  transform: translate(10%, -20%) scale(1);
+  color: rgb(255, 255, 50);
+}
+.worker_profile_about{
+  transform: translate(10%, 25%) scale(1);
+  width: 400px;
+}
+
+.login_button{
+  transform: translate(500%, -230%) scale(1);
+  padding: 10px 15px;
+  border-radius: 25px;
+  border: none;
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+  font-size: 14px;
+  font-family: 'Tahoma';
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.log_in_form{
+  border-radius: 25px;
+  padding-top: 4px;
+  background-color: blanchedalmond;
+  width: 200px;
+  height: 200px;
+  text-align: center;
+  font-family: arial;
+  font-weight: bold;
+  display: none;
+  transform: translate(0%, -0%) scale(0.1);
+  transition: transform 0.4s, left 0.4s;
+}
+.login_opened{
+  display: block;
+  transform: translate(600%, -20%) scale(2);
+}
+
+.login_form_botton{
+  padding: 5px 60px;
+  border-radius: 10px;
+  border: none;
+  background-color: rgb(235, 72, 72);
+  color: white;
+  font-weight: bold;
+  transform: translate(10%, -50%) scale(1);
+}
+.login_email_input::placeholder {
+  text-align: center;
+}
+.login_password_input::placeholder {
+  text-align: center; 
+}
+.login_x{
+  cursor: pointer;
+  display: inline-flex;
+  padding: 1px 5px;
+  border-radius: 100%;
+  transform: translate(-3%, -720%) scale(1);
+  background-color: rgb(126, 126, 126);
+  color: white;
+
+}
